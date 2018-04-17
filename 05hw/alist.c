@@ -4,7 +4,6 @@
 #include <assert.h>
 #include "alist.h"
 
-//
 alist_t alalloc(void) {
     alist_t *list = calloc(1, sizeof(alist_t));
     assert(list != NULL);
